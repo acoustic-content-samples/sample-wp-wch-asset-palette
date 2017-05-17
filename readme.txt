@@ -4,7 +4,7 @@ Donate link: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Tags: wch, headless, content, management, watson, ibm
 Requires at least: 3.4
 Tested up to: 4.7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: Apache License Version 2.0
 License URI: http://www.apache.org/licenses/
 
@@ -32,11 +32,13 @@ A rich array of APIs helps you build user experiences that marketing and e-comme
 4. Provide the APIurl for your WCH tenant
 
 == Screenshots ==
-1. This screen shot shows the plugin install.
 1. This screen shot shows the general layout.
-1. This screen shot shows how to search for specific tags.
+2. This screen shot shows how to search for specific tags.
+3. This screen shot shows the plugin install.
 
 == Changelog ==
+= 1.0.3 =
+* Docu update
 = 1.0.2 =
 * Docu update
 = 1.0.1 =
