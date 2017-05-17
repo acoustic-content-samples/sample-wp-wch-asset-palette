@@ -25,6 +25,8 @@ The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 
 ## Getting started
 As soon the Plugin is activated it will open up automatically on the Post/Pages edit screens in the lower area.
+![Insert asset](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/selectImage.jpg)
+
 ![Search using tags](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/searchTag.jpg)
 
 ## Features
