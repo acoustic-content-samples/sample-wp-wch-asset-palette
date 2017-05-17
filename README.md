@@ -2,7 +2,7 @@
 
 This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
 The main goal of this plugin is to show how simple both technologies could get combined. 
-It allows to use the palette for selecting published content into a blog or page.
+It allows to use the palette for selecting published assets into a blog or page.
 
 ## Pre-requisites
 There is no known pre-requisite, but this module was mainly tested on
@@ -20,9 +20,12 @@ Installation may occur via copy of files or ZIP install
 4. Provide the APIurl for your WCH tenant
 Obtain the API URL from the "Hub Information" dialog available off the top navigation bar of the content hub authoring UI. 
 The API URL is of the form: https://{tenant-host}/api/{tenant-id}
+### Or use the official build-in plugin-search
+![Install plugin](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/installPlugin.jpg)
 
 ## Getting started
 As soon the Plugin is activated it will open up automatically on the Post/Pages edit screens in the lower area.
+![Search using tags](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/searchTag.jpg)
 
 ## Features
 - Use the WYSIWYG WordPress editor to insert IBM Watson Content Hub hosted pictures.
