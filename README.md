@@ -8,23 +8,23 @@ could get combined. It allows to use the palette for selecting publsihed content
 There is no known pre-requisite, but this module was mainly tested on
 Wordpress: 3.4 till 4.7.4 (last tested version)
 
-##Installation
+## Installation
 Installation may occur via copy of files or ZIP install
-###Installation using the files
+### Installation using the files
 1. Upload files to the `/wp-content/plugins/` directory
-###Installation using the ZIP
+### Installation using the ZIP
 1. Upload the zip using Plugins -> Add New -> Upload Plugin -> Browse -> Install Now
-###Activation and configuration
+### Activation and configuration
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Open the plugin configuration page
 4. Provide the APIurl for your WCH tenant
 Obtain the API URL from the "Hub Information" dialog available off the top navigation bar of the content hub authoring UI. 
 The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 
-##Getting started
+## Getting started
 As soon the Plugin is activated it will open up automatically on the Post/Pages edit screens in the lower area.
 
-##Features
+## Features
 - Use the WYSIWYG WordPress editor to insert IBM Watson Content Hub hosted pictures.
 
 ### Known limitations
@@ -40,6 +40,6 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 - Auto-resize IFrame
 - Feed tags from outside (WCH feature required)
 
-#Changelog
+# Changelog
 = 1.0 =
 * Initial released version
