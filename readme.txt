@@ -1,4 +1,4 @@
-=== WCH Asset Palette ===
+=== IBM Watson Content Hub Asset Palette ===
 Contributors: saschaschefenacker
 Donate link: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Tags: wch, headless, content, management, watson, ibm
@@ -11,7 +11,7 @@ License URI: http://www.apache.org/licenses/
 == Description ==
 This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
 The main goal of this plugin is to show how simple both technologies could get combined. 
-It allows to use the palette for selecting published content into a blog or page.
+It allows to use the palette for selecting published assets into a blog or page.
 
 To see the code and participate in development please refer to Github: 
 https://github.com/ibm-wch/sample-wp-wch-asset-palette
@@ -25,12 +25,16 @@ The system automatically tags assets on upload, transforming disorderly assets i
 Cloud based delivery gets you up a running fast and able to update content in real time. 
 A rich array of APIs helps you build user experiences that marketing and e-commerce teams can update directly in existing marketing and digital experience platforms without new development work.
 
-
 == Installation ==
 1. Upload files to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Open the plugin configuration page
 4. Provide the APIurl for your WCH tenant
+
+== Screenshots ==
+1. This screen shot shows the plugin install.
+1. This screen shot shows the general layout.
+1. This screen shot shows how to search for specific tags.
 
 == Changelog ==
 = 1.0.2 =

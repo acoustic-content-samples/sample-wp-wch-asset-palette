@@ -28,7 +28,7 @@
  * limitations under the License.
 
  *******************************************************************************
-Plugin Name: WCH Asset Palette
+Plugin Name: IBM Watson Content Hub Asset Palette
 Description: This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
 Version: 1.0.2
 Author: Sascha Schefenacker
