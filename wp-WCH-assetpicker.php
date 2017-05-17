@@ -28,9 +28,9 @@
  * limitations under the License.
 
  *******************************************************************************
-Plugin Name: WCH AssetPicker
-Description: AssetPicker from Watson Content Hub for WordPress
-Version: 1.1
+Plugin Name: WCH Asset Palette
+Description: This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
+Version: 1.0.2
 Author: Sascha Schefenacker
 Author URI: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Plugin URI: https://github.com/ibm-wch/sample-wp-wch-asset-palette

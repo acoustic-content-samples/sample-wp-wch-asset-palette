@@ -1,8 +1,8 @@
 # WordPress integration with IBM Watson Content Hub
 
-This plugin provides a installable plugin for [wordPress](https://wordpress.org/) which integrate with
-IBM Watson Content Hub. The main goal of this plugin is to show how simple both technologies 
-could get combined. It allows to use the palette for selecting published content into a blog or page.
+This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
+The main goal of this plugin is to show how simple both technologies could get combined. 
+It allows to use the palette for selecting published content into a blog or page.
 
 ## Pre-requisites
 There is no known pre-requisite, but this module was mainly tested on
@@ -25,7 +25,6 @@ The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 As soon the Plugin is activated it will open up automatically on the Post/Pages edit screens in the lower area.
 
 ## Features
-- Provided via WordPress: https://wordpress.org/plugins/wch-assetpicker/
 - Use the WYSIWYG WordPress editor to insert IBM Watson Content Hub hosted pictures.
 
 ### Known limitations
@@ -40,7 +39,3 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 - Add "test connection" on config page
 - Auto-resize IFrame
 - Feed tags from outside (WCH feature required)
-
-# Changelog
-= 1.0 =
-* Initial released version
