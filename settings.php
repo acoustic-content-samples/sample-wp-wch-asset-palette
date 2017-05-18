@@ -71,8 +71,10 @@ function my_cool_plugin_settings_page() {
     <table class="form-table">        
         <tr valign="top">
         <th scope="row">APIurl</th>
-        <td><input type="text" name="apiUrl" value="<?php echo esc_attr( get_option('apiUrl') ); ?>" /></td>
-        </tr>        
+        <td><input type="url" name="apiUrl" size="80" value="<?php echo esc_attr( get_option('apiUrl') ); ?>" /></td>
+        </tr>
+		<p>Obtain the API URL from the "Hub Information" dialog available off the top navigation bar of the content hub authoring UI. <br>
+		The API URL is of the form: https://{tenant-host}/api/{tenant-id}</p>
     </table>
     
     <?php submit_button(); ?>
