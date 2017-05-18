@@ -4,7 +4,7 @@ Donate link: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Tags: wch, headless, content, management, watson, ibm
 Requires at least: 3.4
 Tested up to: 4.7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.5
 License: Apache License Version 2.0
 License URI: http://www.apache.org/licenses/
 
@@ -37,11 +37,9 @@ A rich array of APIs helps you build user experiences that marketing and e-comme
 3. This screen shot shows the plugin install.
 
 == Changelog ==
-= 1.0.3 =
-* Docu update
-= 1.0.2 =
-* Docu update
-= 1.0.1 =
+= 1.0.5 =
+* Move 'Asset Palette Settings'
+= 1.0.4, 1.0.3, 1.0.2, 1.0.1 =
 * Docu update
 = 1.0 =
 * Initial released version

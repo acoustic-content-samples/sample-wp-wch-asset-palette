@@ -33,12 +33,27 @@ add_action('admin_menu', 'wch_assetpicker_plugin_create_menu');
 function wch_assetpicker_plugin_create_menu() {
 
 	//create new top-level menu
-	add_menu_page('WCH Asset Picker Settings', 'WCH Asset Picker Settings', 'administrator', __FILE__, 'my_cool_plugin_settings_page' , plugins_url('/icon/wchIcon-icon.png', __FILE__) );
+//	add_menu_page('Asset Palette Settings', 'Asset Palette Settings', 'administrator', __FILE__, 'my_cool_plugin_settings_page' , plugins_url('/icon/wchIcon-icon.png', __FILE__) );
 
 	//call register settings function
 	add_action( 'admin_init', 'register_my_cool_plugin_settings' );
+	
 }
 
+add_action( 'admin_menu', 'my_plugin_menu' );
+
+function my_plugin_menu() {
+	add_options_page( 'Asset Palette Settings Options', 'Asset Palette', 'manage_options', 'my-unique-identifier', 'my_cool_plugin_settings_page' );
+}
+
+function my_plugin_options() {
+	if ( !current_user_can( 'manage_options' ) )  {
+		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
+	}
+	echo '<div class="wrap">';
+	echo '<p>Here is where the form would go if I actually had options.</p>';
+	echo '</div>';
+}
 
 function register_my_cool_plugin_settings() {
 	//register our settings
