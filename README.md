@@ -24,6 +24,11 @@ The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 ![Install plugin](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/installPlugin.jpg)
 
 ## Getting started
+To use it you require access to a IBM Watson Content Hub SaaS instance
+- having the APIUrl of an existing instance.
+- registering a new instance here: ![IBM Watson Content Hub](https://www.ibm.com/marketplace/cloud/cloud-cms-solution)
+And the instance need to allow CORS calls from https://www.digitalexperience.ibm.com
+
 As soon the Plugin is activated it will open up automatically on the Post/Pages edit screens in the lower area.
 ![Insert asset](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/selectImage.jpg)
 

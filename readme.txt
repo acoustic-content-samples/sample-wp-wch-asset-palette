@@ -14,10 +14,12 @@ The main goal of this plugin is to show how simple both technologies could get c
 It allows to use the palette for selecting published assets into a blog or page.
 
 To see the code and participate in development please refer to Github: 
-https://github.com/ibm-wch/sample-wp-wch-asset-palette
+[Github](https://github.com/ibm-wch/sample-wp-wch-asset-palette "Github project")
 
-To use it participate with an existing SaaS instance or register a new one at:
-https://www.digitalexperience.ibm.com
+To use it you require access to a IBM Watson Content Hub SaaS instance
+- having the APIUrl of an existing instance.
+- registering a new instance here: [IBM Watson Content Hub](https://www.ibm.com/marketplace/cloud/cloud-cms-solution/ "IBM Watson Content Hub")
+And the instance need to allow CORS calls from https://www.digitalexperience.ibm.com
 
 Content made easy with Watson Content Hub
 Say goodbye to time consuming asset and content management with Watson Content Hub. 
