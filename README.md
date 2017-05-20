@@ -39,12 +39,12 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 - Use the WYSIWYG WordPress editor to insert IBM Watson Content Hub hosted pictures.
 
 ### Known limitations
-- Only for images for now
+- Only images
 - Iframe has a fixed size
 
 ### Possible future enhancements
-- Display list of tenants of the user and allow to switch tenants
-- Enhance config page explaining how to retrieve the APIUrl
+- Configure/Display list of tenants and allow to switch tenants
+- Use new JSON response 'paletteData' instead of combining the akamai url
 - Support also other asset types (e.g. if video is clicked, add a link)
 - Support also content (if label "text" insert a quote)
 - Add "test connection" on config page

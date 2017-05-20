@@ -4,7 +4,7 @@ Donate link: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Tags: wch, headless, content, management, watson, ibm
 Requires at least: 3.4
 Tested up to: 4.7.4
-Stable tag: 1.0.5
+Stable tag: 1.0.7
 License: Apache License Version 2.0
 License URI: http://www.apache.org/licenses/
 
@@ -14,12 +14,12 @@ The main goal of this plugin is to show how simple both technologies could get c
 It allows to use the palette for selecting published assets into a blog or page.
 
 To see the code and participate in development please refer to Github: 
-[Github](https://github.com/ibm-wch/sample-wp-wch-asset-palette "Github project")
+[https://github.com/ibm-wch/sample-wp-wch-asset-palette](https://github.com/ibm-wch/sample-wp-wch-asset-palette "Github project")
 
 To use it you require access to a IBM Watson Content Hub SaaS instance
 - having the APIUrl of an existing instance.
 - registering a new instance here: [IBM Watson Content Hub](https://www.ibm.com/marketplace/cloud/cloud-cms-solution/ "IBM Watson Content Hub")
-And the instance need to allow CORS calls from https://www.digitalexperience.ibm.com
+Note: The instance need to allow CORS calls from https://www.digitalexperience.ibm.com
 
 Content made easy with Watson Content Hub
 Say goodbye to time consuming asset and content management with Watson Content Hub. 
@@ -37,6 +37,7 @@ A rich array of APIs helps you build user experiences that marketing and e-comme
 1. This screen shot shows the general layout.
 2. This screen shot shows how to search for specific tags.
 3. This screen shot shows the plugin install.
+4. How to configure CORS.
 
 == Changelog ==
 = 1.0.5 =
