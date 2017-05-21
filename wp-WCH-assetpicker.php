@@ -135,7 +135,7 @@ function custom_meta_box_markup($object)
 							var nodes = document.querySelectorAll("#wchframe");
 							for (var i = nodes.length-1; i >= 0; i--) {
 								console.log("Initializing iframe");
-   							nodes[i].src = "https://www.digitalexperience.ibm.com/content-picker/picker.html?fq=classification:asset&fq=assetType:image&apiUrl="+encodeURIComponent(apiUrl);
+   							nodes[i].src = "https://www.digitalexperience.ibm.com/content-picker/picker.html?fq=classification:asset&fq=assetType:image%20assetType:video&apiUrl="+encodeURIComponent(apiUrl);
 							}
    						jQuery("#wchframe").removeClass("wchHidden");
    						jQuery("#wchframeloader").addClass("wchHidden");
