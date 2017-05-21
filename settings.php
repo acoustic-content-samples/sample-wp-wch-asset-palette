@@ -58,6 +58,10 @@ function my_plugin_options() {
 function register_my_cool_plugin_settings() {
 	//register our settings
 	register_setting( 'wch-assetpicker-settings-group', 'apiUrl' );
+	register_setting( 'wch-assetpicker-settings-group', 'type-image' );
+	register_setting( 'wch-assetpicker-settings-group', 'type-video' );
+	register_setting( 'wch-assetpicker-settings-group', 'type-file' );
+	register_setting( 'wch-assetpicker-settings-group', 'type-document' );
 }
 
 function my_cool_plugin_settings_page() {
@@ -68,15 +72,17 @@ function my_cool_plugin_settings_page() {
 <form method="post" action="options.php">
     <?php settings_fields( 'wch-assetpicker-settings-group' ); ?>
     <?php do_settings_sections( 'wch-assetpicker-settings-group' ); ?>
-    <table class="form-table">        
-        <tr valign="top">
-        <th scope="row">APIurl</th>
-        <td><input type="url" name="apiUrl" size="80" value="<?php echo esc_attr( get_option('apiUrl') ); ?>" /></td>
-        </tr>
-		<p>Obtain the API URL from the "Hub Information" dialog available off the top navigation bar of the content hub authoring UI. <br>
-		The API URL is of the form: https://{tenant-host}/api/{tenant-id}</p>
-    </table>
-    
+    <table class="apiurl-table">
+		<tr valign="top"><td colspan="2">Obtain the API URL from the "Hub Information" dialog available off the top navigation bar of the content hub authoring UI. <br>
+		The API URL is of the form: https://{tenant-host}/api/{tenant-id}</td></tr>
+        <tr valign="top"><th scope="row">APIurl</th><td><input type="url" name="apiUrl" size="80" value="<?php echo esc_attr( get_option('apiUrl') ); ?>" /></td></tr>
+		<tr valign="top"><td></td></tr>
+		<tr valign="top"><td>Show asset types:</td></tr>
+        <tr valign="top"><th scope="row">image</th><td><input name="type-image" type="checkbox" value="1" <?php checked( '1', get_option( 'type-image' ) ); ?> /></td></tr>
+        <tr valign="top"><th scope="row">video</th><td><input name="type-video" type="checkbox" value="1" <?php checked( '1', get_option( 'type-video' ) ); ?> /></td></tr>
+        <tr valign="top"><th scope="row">file</th><td><input name="type-file" type="checkbox" value="1" <?php checked( '1', get_option( 'type-file' ) ); ?> /></td></tr>
+        <tr valign="top"><th scope="row">document</th><td><input name="type-document" type="checkbox" value="1" <?php checked( '1', get_option( 'type-document' ) ); ?> /></td></tr>
+    </table>    
     <?php submit_button(); ?>
 
 </form>

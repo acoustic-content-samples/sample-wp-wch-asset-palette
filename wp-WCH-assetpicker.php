@@ -30,7 +30,7 @@
  *******************************************************************************
 Plugin Name: IBM Watson Content Hub Asset Palette
 Description: This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
-Version: 1.0.8
+Version: 1.0.9
 Author: Sascha Schefenacker
 Author URI: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Plugin URI: https://github.com/ibm-wch/sample-wp-wch-asset-palette
@@ -84,6 +84,40 @@ function custom_meta_box_markup($object)
 	
 	<script type="text/javascript">
 	var apiUrl="<?php echo "$apiUrlPHP" ?>";
+	var typeOptions="";
+	
+	if ("<?php echo get_option('type-image') ?>"==="1") {
+		if (typeOptions==="" ) {
+			typeOptions = typeOptions+"assetType:image";
+		} else {
+			typeOptions = typeOptions+"%20assetType:image";
+		}
+	}
+	if ("<?php echo get_option('type-video') ?>"==="1") {
+		if (typeOptions==="" ) {
+			typeOptions = typeOptions+"assetType:video";
+		} else {
+			typeOptions = typeOptions+"%20assetType:video";
+		}
+	}
+	if ("<?php echo get_option('type-file') ?>"==="1") {
+		if (typeOptions==="" ) {
+			typeOptions = typeOptions+"assetType:file";
+		} else {
+			typeOptions = typeOptions+"%20assetType:file";
+		}
+	}
+	if ("<?php echo get_option('type-document') ?>"==="1") {
+		if (typeOptions==="" ) {
+			typeOptions = typeOptions+"assetType:document";
+		} else {
+			typeOptions = typeOptions+"%20assetType:document";
+		}
+	}
+	if (typeOptions.length>0) {
+		typeOptions="&fq="+typeOptions;
+	}
+	
 	var hostRendering="<?php echo "$hostRendering" ?>";
 	var tenantId="<?php echo "$tenantId" ?>";
 	</script>
@@ -135,7 +169,7 @@ function custom_meta_box_markup($object)
 							var nodes = document.querySelectorAll("#wchframe");
 							for (var i = nodes.length-1; i >= 0; i--) {
 								console.log("Initializing iframe");
-   							nodes[i].src = "https://www.digitalexperience.ibm.com/content-picker/picker.html?fq=classification:asset&fq=assetType:image%20assetType:video&apiUrl="+encodeURIComponent(apiUrl);
+   							nodes[i].src = "https://www.digitalexperience.ibm.com/content-picker/picker.html?fq=classification:asset"+typeOptions+"&apiUrl="+encodeURIComponent(apiUrl);
 							}
    						jQuery("#wchframe").removeClass("wchHidden");
    						jQuery("#wchframeloader").addClass("wchHidden");
