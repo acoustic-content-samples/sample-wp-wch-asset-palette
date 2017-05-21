@@ -40,6 +40,8 @@ A rich array of APIs helps you build user experiences that marketing and e-comme
 4. How to configure CORS.
 
 == Changelog ==
+= 1.0.6, 1.0.7 =
+* Docu update
 = 1.0.5 =
 * Move 'Asset Palette Settings'
 = 1.0.4, 1.0.3, 1.0.2, 1.0.1 =

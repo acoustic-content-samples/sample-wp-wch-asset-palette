@@ -105,9 +105,16 @@ function custom_meta_box_markup($object)
 					if (resourceURL) {
 						var targetNode = getRteNode();
 						if (targetNode) {
-							var img = jQuery('<img id="dynamic">');	
-							img.attr("src", resourceURL);
-							img.appendTo(targetNode);
+							//if image
+							if ( resourceURL.toLowerCase().endsWith("jpeg") || resourceURL.toLowerCase().endsWith("jpg") || resourceURL.toLowerCase().endsWith("gif") || resourceURL.toLowerCase().endsWith("png") ) {
+								var img = jQuery('<img id="dynamic">');	
+								img.attr("src", resourceURL);
+								img.appendTo(targetNode);
+							} else {
+								var link = jQuery('<a id="dynamic">'+resourceURL+'</a>');
+								link.attr("href", resourceURL);
+								link.appendTo(targetNode);
+							}
 						}
 					}
 				}
