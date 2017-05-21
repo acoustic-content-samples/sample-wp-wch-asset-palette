@@ -140,7 +140,7 @@ function custom_meta_box_markup($object)
 			</script>
 			<div>
 				<div id="wchframeloader">Please wait... WCH connection is initializing...</div>
-				<iframe id="wchframe" class="wchHidden" style="width:800px;height:800px"></iframe>
+				<iframe id="wchframe" class="wchHidden" height="800" width="100%"></iframe>
 			</div>
     <?php  
 }

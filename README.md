@@ -40,13 +40,12 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 
 ### Known limitations
 - Only images
-- Iframe has a fixed size
 
 ### Possible future enhancements
 - Configure/Display list of tenants and allow to switch tenants
+- integrate palette html into plugin instead of IFrame
 - Use new JSON response 'paletteData' instead of combining the akamai url
 - Support also other asset types (e.g. if video is clicked, add a link)
 - Support also content (if label "text" insert a quote)
 - Add "test connection" on config page
-- Auto-resize IFrame
 - Feed tags from outside (WCH feature required)
