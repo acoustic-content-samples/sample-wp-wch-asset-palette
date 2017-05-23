@@ -37,7 +37,7 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 
 ## Features
 - Use the WYSIWYG WordPress editor to insert IBM Watson Content Hub hosted pictures.
-- Images get integrated using a IMG tag
+- Images get integrated using a IMG tag (jpeg, jpg, gif, png)
 - Videos get integrated using a LINK
 
 ### Known limitations
