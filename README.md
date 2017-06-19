@@ -6,7 +6,7 @@ It allows to use the palette for selecting published assets into a blog or page.
 
 ## Pre-requisites
 There is no known pre-requisite, but this module was mainly tested on
-Wordpress: 3.4 till 4.7.4 (last tested version)
+Wordpress: 3.4 till 4.8 (last tested version)
 
 ## Installation
 Installation may occur via copy of files or ZIP install

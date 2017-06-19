@@ -4,7 +4,7 @@ Donate link: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Tags: wch, headless, content, management, watson, ibm, cognitive
 Requires at least: 3.4
 Tested up to: 4.8
-Stable tag: 1.0.11
+Stable tag: 1.0.12
 License: Apache License Version 2.0
 License URI: http://www.apache.org/licenses/
 
@@ -40,6 +40,8 @@ A rich array of APIs helps you build user experiences that marketing and e-comme
 4. How to configure CORS.
 
 == Changelog ==
+= 1.0.12 =
+* link fixed
 = 1.0.10, 1.0.11 =
 * Minor updates
 = 1.0.9 =
