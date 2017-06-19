@@ -30,7 +30,7 @@
  *******************************************************************************
 Plugin Name: IBM Watson Content Hub Asset Palette
 Description: This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
-Version: 1.0.9
+Version: 1.0.11
 Author: Sascha Schefenacker
 Author URI: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
 Plugin URI: https://github.com/ibm-wch/sample-wp-wch-asset-palette

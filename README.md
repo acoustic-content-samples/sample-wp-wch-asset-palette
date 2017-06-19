@@ -26,7 +26,7 @@ The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 ## Getting started
 To use it you require access to a IBM Watson Content Hub SaaS instance
 - having the APIUrl of an existing instance.
-- registering a new instance here: https://www.ibm.com/marketplace/cloud/cloud-cms-solution
+- registering a new instance here: https://www.ibm.com/marketplace/cloud/cloud-cms-solution/
 
 Note: The instance need to allow CORS calls from https://www.digitalexperience.ibm.com
 
