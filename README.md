@@ -18,7 +18,7 @@ Installation may occur via copy of files or ZIP install
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Open the plugin configuration page
 4. Provide the APIurl for your WCH tenant
-Obtain the API URL from the "Hub Information" dialog available off the top navigation bar of the content hub authoring UI. 
+Obtain the API URL from the "Hub Information" dialog available off the "About" flyout menu from the left navigation pane of the Watson Content Hub authoring UI. 
 The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 ### Or use the official build-in plugin-search
 ![Install plugin](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/installPlugin.jpg)
