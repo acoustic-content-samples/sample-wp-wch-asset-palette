@@ -1,6 +1,6 @@
-# WordPress integration with IBM Watson Content Hub
+# WordPress integration with Acoustic Content
 
-This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
+This plugin provides an installable plugin for WordPress which integrates with Acoustic Content (formerly Watson Content Hub). 
 The main goal of this plugin is to show how simple both technologies could get combined. 
 It allows to use the palette for selecting published assets into a blog or page.
 
