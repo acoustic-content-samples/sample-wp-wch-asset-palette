@@ -19,7 +19,7 @@ To see the code and participate in development please refer to Github:
 To use it you require access to a IBM Watson Content Hub SaaS instance
 - having the APIUrl of an existing instance.
 - registering a new instance here: [IBM Watson Content Hub](https://www.ibm.com/marketplace/cloud/cloud-cms-solution/ "IBM Watson Content Hub")
-Note: The instance need to allow CORS calls from https://www.digitalexperience.ibm.com
+Note: The instance need to allow CORS calls from https://content-us.goacoustic.com
 
 Content made easy with Watson Content Hub
 Say goodbye to time consuming asset and content management with Watson Content Hub. 

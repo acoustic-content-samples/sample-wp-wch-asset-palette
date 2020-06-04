@@ -169,7 +169,7 @@ function custom_meta_box_markup($object)
 							var nodes = document.querySelectorAll("#wchframe");
 							for (var i = nodes.length-1; i >= 0; i--) {
 								console.log("Initializing iframe");
-   							nodes[i].src = "https://www.digitalexperience.ibm.com/content-picker/picker.html?fq=classification:asset"+typeOptions+"&apiUrl="+encodeURIComponent(apiUrl);
+   							nodes[i].src = "https://content-us.goacoustic.com/content-picker/picker.html?fq=classification:asset"+typeOptions+"&apiUrl="+encodeURIComponent(apiUrl);
 							}
    						jQuery("#wchframe").removeClass("wchHidden");
    						jQuery("#wchframeloader").addClass("wchHidden");
