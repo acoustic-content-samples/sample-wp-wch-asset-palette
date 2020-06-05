@@ -33,7 +33,7 @@ Description: This plugin provides an installable plugin for WordPress which inte
 Version: 1.0.12
 Author: Sascha Schefenacker
 Author URI: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
-Plugin URI: https://github.com/ibm-wch/sample-wp-wch-asset-palette
+Plugin URI: https://github.com/acoustic-content-samples/sample-wp-wch-asset-palette
 */
 
 
