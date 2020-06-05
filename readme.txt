@@ -14,11 +14,11 @@ The main goal of this plugin is to show how simple both technologies could get c
 It allows to use the palette for selecting published assets into a blog or page.
 
 To see the code and participate in development please refer to Github: 
-[https://github.com/ibm-wch/sample-wp-wch-asset-palette](https://github.com/ibm-wch/sample-wp-wch-asset-palette "Github project")
+[https://github.com/acoustic-content-samples/sample-wp-wch-asset-palette](https://github.com/acoustic-content-samples/sample-wp-wch-asset-palette "Github project")
 
 To use it you require access to a Acoustic Content SaaS instance
 - having the APIUrl of an existing instance.
-- registering a new instance here: [Acoustic Content](https://acoustic.com/ "Acoustic Content")
+- registering a new instance here: [Acoustic Content](https://acoustic.com/products/content/ "Acoustic Content")
 Note: The instance need to allow CORS calls from https://content-us.goacoustic.com
 
 Content made easy with Acoustic Content
