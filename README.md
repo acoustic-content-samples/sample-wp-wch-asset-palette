@@ -18,13 +18,13 @@ Installation may occur via copy of files or ZIP install
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Open the plugin configuration page
 4. Provide the APIurl for your WCH tenant
-Obtain the API URL from the "Hub Information" dialog available off the "About" flyout menu from the left navigation pane of the Watson Content Hub authoring UI. 
+Obtain the API URL from the "Hub Information" dialog available off the "About" flyout menu from the left navigation pane of the Acoustic Content authoring UI. 
 The API URL is of the form: https://{tenant-host}/api/{tenant-id}
 ### Or use the official build-in plugin-search
 ![Install plugin](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/installPlugin.jpg)
 
 ## Getting started
-To use it you require access to a IBM Watson Content Hub SaaS instance
+To use it you require access to an Acoustic Content SaaS instance
 - having the APIUrl of an existing instance.
 - registering a new instance here: https://www.ibm.com/marketplace/cloud/cloud-cms-solution/
 
@@ -36,7 +36,7 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 ![Search using tags](https://raw.githubusercontent.com/ibm-wch/sample-wp-wch-asset-palette/master/doc/images/searchTag.jpg)
 
 ## Features
-- Use the WYSIWYG WordPress editor to insert IBM Watson Content Hub hosted pictures.
+- Use the WYSIWYG WordPress editor to insert Acoustic Content hosted pictures.
 - Images get integrated using a IMG tag (jpeg, jpg, gif, png)
 - Videos get integrated using a LINK
 
