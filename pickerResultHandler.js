@@ -62,8 +62,8 @@
 
 function assembleResourcURL(resultJSON) {
 	console.log("generate url");
-        // this assembles the url to the resource from akamai
-        return "https://"+hostRendering+"/"+tenantId+resultJSON.path;
+		// this assembles the url to the resource from akamai
+        return hostRendering+"/"+tenantId+resultJSON.path;
 }
 
 

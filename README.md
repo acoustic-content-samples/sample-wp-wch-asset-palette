@@ -6,7 +6,7 @@ It allows to use the palette for selecting published assets into a blog or page.
 
 ## Pre-requisites
 There is no known pre-requisite, but this module was mainly tested on
-Wordpress: 3.4 till 4.8 (last tested version)
+Wordpress: 3.4 till 5.4 (last tested version) using the classic Rich Text Editor (RTE).
 
 ## Installation
 Installation may occur via copy of files or ZIP install
@@ -16,16 +16,14 @@ Installation may occur via copy of files or ZIP install
 1. Upload the zip using Plugins -> Add New -> Upload Plugin -> Browse -> Install Now
 ### Activation and configuration
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Open the plugin configuration page
+3. Access the Settings > Asset Palette configuration page
 4. Provide the APIurl for your WCH tenant
-Obtain the API URL from the "Hub Information" dialog available off the "About" flyout menu from the left navigation pane of the Acoustic Content authoring UI. 
+Obtain the API URL from the "Hub Information" dialog available from the "About" menu in Acoustic Content authoring UI. 
 The API URL is of the form: https://{tenant-host}/api/{tenant-id}
-### Or use the official build-in plugin-search
-![Install plugin](https://github.com/acoustic-content-samples/sample-wp-wch-asset-palette/blob/master/doc/images/installPlugin.jpg?raw=true)
 
 ## Getting started
-To use it you require access to an Acoustic Content SaaS instance
-- having the APIUrl of an existing instance.
+To use it you require access to an Acoustic Content instance
+- having the APIUrl of an existing instance
 - registering a new instance here: https://acoustic.com/products/content/
 
 Note: The instance need to allow CORS calls from https://content-us.goacoustic.com
@@ -36,12 +34,12 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 ![Search using tags](https://github.com/acoustic-content-samples/sample-wp-wch-asset-palette/blob/master/doc/images/searchTag.jpg?raw=true)
 
 ## Features
-- Use the WYSIWYG WordPress editor to insert Acoustic Content hosted pictures.
+- Use the WYSIWYG WordPress editor to insert Acoustic Content hosted pictures
 - Images get integrated using a IMG tag (jpeg, jpg, gif, png)
 - Videos get integrated using a LINK
 
 ### Known limitations
-- 
+- Classic RTE required
 
 ### Possible future enhancements
 - Configure/Display list of tenants and allow to switch tenants
@@ -50,4 +48,5 @@ As soon the Plugin is activated it will open up automatically on the Post/Pages 
 - Support also content (if label "text" insert a quote)
 - Add "test connection" on config page
 - Feed tags from outside (WCH feature required)
-- config if “asset” or "content" (e.g. fq=classification:asset )
+- config if “asset” or "content" (e.g. fq=classification:asset)
+- Support for other WordPress features (e.g. Blocks)
