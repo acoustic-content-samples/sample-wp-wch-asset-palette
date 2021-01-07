@@ -1,7 +1,7 @@
 <?php
  /*******************************************************************************
 
- * Copyright IBM Corp. 2017
+ * Copyright Acoustic Corp. 2017
  *
 
  * Licensed under the Apache License, Version 2.0 (the "License");
