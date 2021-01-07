@@ -187,8 +187,8 @@ function custom_meta_box_markup($object)
 }
 function add_custom_meta_box()
 {
-    add_meta_box("demo-meta-box", "IBM Watson Content Hub Asset Palette", "custom_meta_box_markup", "page", "normal", "high", null);
-    add_meta_box("demo-meta-box", "IBM Watson Content Hub Asset Palette", "custom_meta_box_markup", "post", "normal", "high", null);
+    add_meta_box("demo-meta-box", "Acoustic Content Asset Palette", "custom_meta_box_markup", "page", "normal", "high", null);
+    add_meta_box("demo-meta-box", "Acoustic Content Asset Palette", "custom_meta_box_markup", "post", "normal", "high", null);
 }
 
 //add to right column
