@@ -1,7 +1,7 @@
 === Acoustic Content Asset Palette ===
-Contributors: saschaschefenacker
-Donate link: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
-Tags: wch, headless, content, management, watson, ibm, cognitive
+Contributors: 
+Donate link: https://acoustic.com/products/content/
+Tags: acoustic, headless, content, management
 Requires at least: 3.4
 Tested up to: 4.8
 Stable tag: 1.0.12
