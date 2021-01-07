@@ -2,7 +2,7 @@
 /*
 /*******************************************************************************
 
- * Copyright IBM Corp. 2017
+ * Copyright Acoustic Corp. 2017
  *
 
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,11 +28,11 @@
  * limitations under the License.
 
  *******************************************************************************
-Plugin Name: IBM Watson Content Hub Asset Palette
-Description: This plugin provides an installable plugin for WordPress which integrates with IBM Watson Content Hub. 
+Plugin Name: Acoustic Content Asset Palette
+Description: This plugin provides an installable plugin for WordPress which integrates with Acoustic Content.
 Version: 1.0.12
-Author: Sascha Schefenacker
-Author URI: https://www.linkedin.com/in/sascha-schefenacker-7815b9/
+Author: Acoustic Content
+Author URI: https://acoustic.com/products/content/
 Plugin URI: https://github.com/acoustic-content-samples/sample-wp-wch-asset-palette
 */
 
